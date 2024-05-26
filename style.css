@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 1200px;
+    height: 1270px;
+    margin: auto;
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+   
+}
+.section .logo{
+    width: 100%;
+    height: 70px;
+    /* background-color: beige; */
+    background-image: url("logo.png");
+    background-size: 180px 60px;
+    background-repeat: no-repeat;
+    background-position: 50px center; 
+    
+}
+.section .nav{
+    width: 100%;
+    height: 380px;
+    /* background-color: blueviolet; */
+    margin-top: 0;
+}
+.section .nav .menu{
+    width: 1200px;
+    height: 60px;
+    background: rgb(55, 57, 66);
+    background: linear-gradient(90deg, rgba(55, 57, 66, 1) 18%, rgba(46, 48, 55, 1) 51%, rgba(69, 70, 75, 1) 100%);
+    border-radius: 10px;
+}
+.section .nav .menu ul{
+    width:800px;
+    height: auto;
+}
+.section .nav .menu ul li{
+    float: left;
+    list-style-type: none;
+    border-right: 2px solid white;
+
+}
+.section .nav .menu ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+}
+.section .nav .image{
+    width: 100%;
+    height: 320px;
+    /* background-color: aqua; */
+}
+.section .nav .image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.section .container{
+    width: 100%;
+    height: 750px;
+    /* background-color: aqua; */
+}
+.section .container .text-left{
+    width: 270px;
+    height: 800px;
+    float: left;
+    /* background-color: blue; */
+    margin-bottom: 10px;
+}
+.section .container .text-left .list{
+    width: 100%;
+    height: 350px;
+    /* background-color: blueviolet; */
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.section .container .text-left .list ul{
+    width: 100%;
+    height: auto;
+}
+.section .container .text-left .list ul .detail{
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+}
+.section .container .text-left .list ul li{
+    list-style-type: none;
+    display: block;
+    padding: 15px 25px;
+    border-bottom: 2px dotted white;
+    background-color: rgb(63, 62, 62);
+    border-radius: 5px;
+}
+.section .container .text-left .list ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+.text-right{
+    width: 900px;
+    height: 100%;
+    /* background-color: brown; */
+    float: right;
+}
+.text-right .main{
+    width: 100%;
+    height: 300px;
+    /* background-color: blueviolet; */
+}
+.text-right .main .reads{
+    width: 100%;
+    height: 50px;
+    background: rgb(55, 57, 66);
+    background: linear-gradient(90deg, rgb(32, 33, 39) 18%, rgba(46, 48, 55, 1) 51%, rgb(33, 33, 36) 100%);
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.text-right .main .reads p{
+    color: white;
+    line-height: 50px;
+    float: left;
+}
+.text-right .main .reads a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    float: right;
+    line-height: 50px;
+}
+.text-right .main .box{
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.text-right .main .box .box1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.text-right .main .box .box1 p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 150px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+}
+footer p{
+    line-height: 50px;
+    color: rgb(81, 0, 255);
+    font-size: 20px;
+}
